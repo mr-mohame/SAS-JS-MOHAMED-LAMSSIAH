@@ -7,9 +7,9 @@
 
 | Information | À compléter |
 |---|---|
-| Nom et prénom | ... |
-| Classe | ... |
-| Nom d'utilisateur GitHub | ... |
+| Nom et prénom | MOHAMED LAMSSIAH|
+| Classe | A |
+| Nom d'utilisateur GitHub | mr-mohame |
 
 ## 🧭 Comment travailler
 
