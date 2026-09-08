@@ -23,4 +23,24 @@ switch(operateur){
     case "+":
         let sum = nombre1 + nombre2;
         console.log(`${nombre1} + ${nombre2} = ${sum}`);
+        break;
+    case "-":
+        let addition = nombre1 - nombre2;
+        console.log(`${nombre1} - ${nombre2} = ${addition}`);
+        break;
+    case "*":
+        let mult = nombre1 * nombre2;
+        console.log(`${nombre1} * ${nombre2} = ${mult}`);
+        break; 
+    case "/":
+        if(b != 0){
+            let div = nombre1 / nombre2;
+            console.log(`${nombre1} / ${nombre2} = ${div}`);
+            break;
+        }else{
+            console.log("impossible de divise sur 0");
+        }
+    default:
+        console.log("merci")    
+                   
 }
