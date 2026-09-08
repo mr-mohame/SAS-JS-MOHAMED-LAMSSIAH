@@ -17,4 +17,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let prix = 500;
+if(prix >= 200 && prix < 500){
+    console.log("Livraison: Gratuite");
+}else if(prix >= 500){
+    let nouveauPrix = prix - (prix * 0.01);
+    console.log(`cout final : ${nouveauPrix} DH, Livraison: Gratuite`);
+}
