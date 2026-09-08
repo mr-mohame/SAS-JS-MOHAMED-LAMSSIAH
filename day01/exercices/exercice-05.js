@@ -17,4 +17,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nomber = 15;
+if(nomber % 2 == 0){
+    console.log(`le nomber ${nomber} est pair`);
+}else{
+    console.log(`le nomber ${nomber} est impair`);
+}
