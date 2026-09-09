@@ -14,4 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb = 10
+let a = 0
+let b = 1
+console.log(a);
+console.log(b);
+
+for(let i = 2; i<= nb; i++){
+   let somme = a + b
+   console.log(somme)
+
+   a = b
+   b = somme
+}
+

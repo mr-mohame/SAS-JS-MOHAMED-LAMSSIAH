@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb = 1
+let res = nb * nb
+while(res<=1000){
+    nb++
+    res = nb * nb
+}
+console.log("le plus petite carre esst " + res)
+console.log("cest le carre "+ nb)
+

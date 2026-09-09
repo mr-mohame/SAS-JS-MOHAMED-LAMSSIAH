@@ -14,4 +14,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb = 29
+let  isPremie = true
+for(let i =2; i<nb; i++){
+    if(nb % i === 0){
+        isPremie = false
+    }
+}
+if(isPremie){
+    console.log(nb + " est un numnber premier");
+    
+}else{
+    console.log(nb + " n'est pas un numnber premier");
+}
