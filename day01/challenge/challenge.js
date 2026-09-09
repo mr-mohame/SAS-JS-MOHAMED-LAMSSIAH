@@ -21,4 +21,15 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let montantEmprunte = 100000, dureeEnMois = 24, revenuMensuel = 8000
+let mensualiteEstimee = (montantEmprunte / dureeEnMois)
+let capaciteMax = revenuMensuel * 0.3
+if(mensualiteEstimee > capaciteMax){
+    console.log(`Prêt accordé. Mensualité : ${mensualiteEstimee.toFixed(2)} MAD`)
+}else if(revenuMensuel > 10000){
+    console.log("Pret non eligible : nous vous proposons d'augmenter la durée")
+}else{
+    console.log("Pret refuse");
+    
+}
+
