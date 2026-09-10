@@ -16,4 +16,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+for(let i =1; i<= 5; i++){
+  //console.log("-------") pour comprendre bien comment fais
+  let ligne =" "
+  for(let j=1; j<=i; j++){
+    ligne=ligne + "-"
+    
+  }
+  console.log(ligne)
+
+  
+}
