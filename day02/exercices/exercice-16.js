@@ -20,4 +20,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let n = 5;
+for(let i=1; i<= n; i++){
+   let ligne = " ";
+    for(let j=5; j>=i; j--){
+        ligne += "*"
+    }
+    console.log(ligne);
+}

@@ -18,3 +18,17 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let nb = 15
+let compteur=0
+while(nb>1){
+    if(nb % 2 == 0){
+        nb= nb/2
+        compteur+=1
+    }else{
+        nb= nb * 3 +1
+        compteur+=1
+    }
+    
+
+}
+console.log(compteur)
+
