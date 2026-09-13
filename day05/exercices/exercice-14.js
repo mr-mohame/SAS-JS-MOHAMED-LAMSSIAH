@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+//let text = "Un mot est généralement séparé par un espace";
+//let text = "Bonjour   tout le   monde"
+//let Text = text.trim("")
+//let sansEspace = text.replaceAll(" ", "");
+
+//console.log(sansEspace)
+//console.log(sansEspace.length)

@@ -15,4 +15,28 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function estAnagramme(mot1, mot2){
+//let mot1= "chien", mot2 = "niche";
+if(mot1.length !== mot2.length){
+    return false;
+}
+let letter2= mot2.split("")
+console.log(letter2);
+for(let i=0; i<=mot1.length-1; i++){
+    let trouve = false;
+    for(let j=0; j<=letter2.length-1; j++){
+        if(mot1[i]==letter2[j]){
+            trouve = true;
+            letter2[j]= ""
+            break;
+        }
+
+    }
+    if(!trouve){
+        return "non Anagramme";
+    }
+}
+return "estAnagramme";
+}
+console.log(estAnagramme("AABC", "CABA"))
+

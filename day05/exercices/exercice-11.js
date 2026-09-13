@@ -15,4 +15,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let text = "Hyper Text Markup Language";
+let Text1 = text.split(" ");
+//console.table(Text1);
+let result="";
+for(let i=0; i<= Text1.length-1; i++){
+    result += Text1[i][0];
+}
+console.log(result);
+
