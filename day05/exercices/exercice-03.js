@@ -14,12 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let text1 = ["youcode"];
-let text2 = ["MAROC"];
+let text1 = "youcode";
+let text2 = "MAROC";
  
 
-let majuscules = text1[0].toUpperCase() //  .toUpperCase() pour convirtir en majuscule 
-let minuscules = text2[0].toLowerCase() //  .toLowerCase() pour convirtir en majuscule
+let majuscules = text1.toUpperCase() //  .toUpperCase() pour convirtir en majuscule 
+let minuscules = text2.toLowerCase() //  .toLowerCase() pour convirtir en majuscule
 
 console.log(`${text1} : ${majuscules}`);
 console.log(`${text2} : ${minuscules}`);

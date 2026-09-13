@@ -15,6 +15,6 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let mot= ["Anticonstitutionnellement"];
-console.log(mot[0].length);
+let mot= "Anticonstitutionnellement";
+console.log(mot.length);
 

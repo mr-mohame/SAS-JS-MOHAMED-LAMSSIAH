@@ -18,12 +18,5 @@
 let fullString = "Safi, Youssoufia, Nador, Casablanca";
 
 let parts = fullString.split(","); // split le string sur les virgule 
-let firstName = parts[0].trim();
-let lasttName = parts[1].trim();
-let secondetName = parts[2].trim();
-let thirdName = parts[3].trim();
-console.log(firstName);
-console.log(lasttName);
-console.log(secondetName);
-console.log(thirdName);
+console.log(parts)
 

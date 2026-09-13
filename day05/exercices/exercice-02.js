@@ -14,7 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let mot = ["Programmation"];
-for(let i=0; i<=mot[0].length-1; i++){
-    console.log(`i= ${i} : ${mot[0][i]}`);
+let mot = "Programmation";
+for(let i=0; i<=mot.length-1; i++){
+    console.log(`i= ${i} : ${mot[i]}`);
 }

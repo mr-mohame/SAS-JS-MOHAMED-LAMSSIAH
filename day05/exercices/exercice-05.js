@@ -14,6 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-//let espace = " ";
-//let text = ["Bonjour tout le monde"];
-//for(let i =0; i<text.length; i++9)
+let espace = " ";
+let text = "Bonjour tout le monde";
+for(let i =0; i<text.length-1; i++){
+    if(text[i]=== espace){
+        console.log(`la place de premier espace est : ${i}`);
+        return;
+    }
+
+}
