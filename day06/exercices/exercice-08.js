@@ -14,7 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let tableau =[12, 23, 0, 4, 20, 100]
+let tableau =[12, 23, 0, 4, 20, 100, 120, -3]
 function Trouver_Min_Max(tableau){
    let tabMin = tableau[0];
    let tabMax = tableau[0];
