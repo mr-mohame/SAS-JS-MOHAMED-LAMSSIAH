@@ -14,4 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+function filtreTableau(tab){
+    let Tab1 = [];
+    let Tab2 = [];
+    for(let i=0; i<tab.length; i++){
+        if(typeof tab[i] === "number"){
+            Tab1.push(tab[i]);
+            
+            
+        }
+    }
+    
+    return Tab1
+}
+console.log(filtreTableau(["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]))

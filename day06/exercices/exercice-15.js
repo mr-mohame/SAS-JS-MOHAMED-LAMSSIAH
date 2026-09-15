@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tab1 = [1, 3, 5];
+let tab2 = [2, 4, 6];
+let tab = []
+for(let i=0; i< tab1.length; i++){
+    tab.push(tab1[i],tab2[i])
+
+}
+console.log(tab);
+
