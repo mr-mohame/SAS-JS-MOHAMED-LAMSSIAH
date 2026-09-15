@@ -19,15 +19,40 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-let panier = [101, 105, 101, 102];
+let panier = [101, 105, 101, 102, 105, 103, 102];
 function ajouterAuPanier(id){
     panier.push(id);
 
 }
 function retirerDuPanier(id){
+    let newTableau = [];
     
-
+    for(let item of panier){
+        
+        if(item !== id){
+            newTableau.push(item)
+        }
+    }
+    panier = newTableau;
+    return panier
 }
+
 function afficherQuantites(){
+    let quantites = {}
+    for(let mot of panier){
+        if(quantites[mot]){
+            quantites[mot] +=1;
+        }else{
+            quantites[mot] = 1;
+
+        }
+    }
+    for (let id in quantites) {
+        console.log(`Article ${id} : ${quantites[id]} exemplaire(s)`);
+    }
 
 }
+ajouterAuPanier(102)
+retirerDuPanier(102)
+afficherQuantites()
+console.table(panier)
