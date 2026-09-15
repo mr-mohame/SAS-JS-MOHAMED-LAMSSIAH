@@ -9,5 +9,6 @@
  */
 'use strict';
 
-let date = [15, 10, 2024]
-console.log(date[2]);
+let date = "15, 10, 2024";
+let Date = date.slice(8, 15)
+console.log(Date);

@@ -9,4 +9,8 @@
  */
 'use strict';
 
+let phrase = "J'apprends le JavaScript à YouCode";
+let motCle = phrase.toLocaleLowerCase().includes("javascript");  // tolocalelower() pour convirte en miniscule et include pour cherche
+console.log(motCle);
+
 
