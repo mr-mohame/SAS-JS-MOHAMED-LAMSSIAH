@@ -23,4 +23,23 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let message = ("Tu es vraiment un GROS NooB et un idiot !! nul")
+
+function filtrerMessage(message){
+    let interdits = ["noob", "idiot", "nul"];
+    let mot = message.split(" ");
+    //let result = "";
+
+    for(let i = 0; i <= mot.length-1; i++){
+       // console.log("------" + i + "------")
+        let motMini = mot[i].toLowerCase();
+        if(interdits.includes(motMini)){
+            let longueur = mot[i].length;
+
+            mot[i] = "*".repeat(longueur);
+        } 
+    }
+    return mot.join(" ");
+}
+
+console.log(filtrerMessage(message))
