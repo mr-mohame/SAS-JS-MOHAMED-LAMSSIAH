@@ -14,4 +14,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tab = [10, 20, 30, 40, 45, 50, 60];
+let valeur = 45;
+for(let i=0; i<tab.length; i++){
+    if(tab[i]===valeur){
+        console.log(`la valeur ${valeur} est dans lindex : ${i}`);
+        break
+    }
+}
+return -1
+

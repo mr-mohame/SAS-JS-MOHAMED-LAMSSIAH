@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tableau =["Rouge", "Vert", "Bleu"];
+let resulta =[];
+for(let i=0; i<tableau.length; i++){
+    for(let j=i+1; j<tableau.length; j++){
+        resulta.push([tableau[i], tableau[j]])
+    }
+}
+console.log(resulta)

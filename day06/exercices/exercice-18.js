@@ -14,4 +14,6 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tab = [[1, 2], [3, 4], [5, 6]];
+let tabflatten = tab.flat()
+console.log(tabflatten)

@@ -19,4 +19,15 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let panier = [101, 105, 101, 102];
+function ajouterAuPanier(id){
+    panier.push(id);
+
+}
+function retirerDuPanier(id){
+    
+
+}
+function afficherQuantites(){
+
+}

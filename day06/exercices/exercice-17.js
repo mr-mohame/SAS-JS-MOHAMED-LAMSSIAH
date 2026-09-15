@@ -14,4 +14,20 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let mots = ["pomme", "banane", "pomme", "orange", "banane", "pomme"];
+function occurrences(mots){
+    let occurrencesMots =[];
+    for(let mot of mots){
+        if(occurrencesMots[mot]){
+            occurrencesMots[mot] += 1;
+        }else{
+            occurrencesMots[mot] = 1;
+        }
+
+    }
+    return occurrencesMots
+
+
+}
+console.log(occurrences(mots))
+
