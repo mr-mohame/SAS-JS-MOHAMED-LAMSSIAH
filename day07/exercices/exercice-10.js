@@ -14,4 +14,18 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let caracteres = "abracadabra";
+let compteur ={};
+for(let i=0; i<caracteres.length; i++){
+    let valeur = caracteres[i]
+    if(compteur[valeur]){
+        compteur[valeur] += 1
+    }else{
+        compteur[valeur] = 1
+    }
+
+    
+
+}
+
+console.log(compteur)

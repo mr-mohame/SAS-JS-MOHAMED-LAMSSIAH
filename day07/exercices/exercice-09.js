@@ -14,4 +14,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let condidats = [
+    {nom : "mohamed", score: 12},
+    {nom : "amine", score: 23},
+    {nom : "rachid", score: 4}
+];
+let meilleurScore = [];
+for (let i=0; i<condidats.length;i++){
+    if(condidats[i].score>=10){
+        meilleurScore.push(condidats[i])
+    }
+}
+console.log(meilleurScore)

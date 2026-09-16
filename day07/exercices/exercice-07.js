@@ -14,3 +14,9 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+let livers = [
+    { liter: 1, auteur : "Anass"},
+    { titer: 2, auteur : "Sara"}
+];
+
+console.log(`le titre de liver est : ${livers[1].titer}`);
