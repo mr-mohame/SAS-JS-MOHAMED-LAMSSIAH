@@ -14,4 +14,23 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let Prix =[
+    { article: "PC", 
+      prix: "1500$" 
+    },
+    { article: "Souris", 
+      prix: "25$" }
+]
+function modifie(Prix){
+    for(let i=0; i<Prix.length; i++){
+        let prixSansDollar = Number(Prix[i].prix.replace("$", ""));
+        Prix[i].prix= prixSansDollar;
+
+    }
+    return Prix
+    
+
+}
+console.table(modifie(Prix))
+
+
